@@ -9,6 +9,23 @@ body {
 h1 {
     font-size: 40px;
     font-weight: 700;
+    margin-right: 30px;
+}
+header {
+    border-bottom: 4px solid #49A37B;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+.social-media {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+}
+.social-media img {
+    width: 20px;
+    margin-right: 10px;
 }
 .sidebar {
     background-color: #262862;
@@ -40,7 +57,7 @@ h1 {
 }
 .get-in-touch {
     font-size: 20px;
-    border-bottom: 3px solid #49A37B;
+    border-bottom: 4px solid #49A37B;
     margin-bottom: 30px;
 }
 .get-in-touch-text {
@@ -63,4 +80,94 @@ h1 {
     background-color: #49A37B;
     padding: 14px 30px;
     border-radius: 5px;
+}
+.teams-left {
+    width: 50%;
+    margin-right: 50px;
+}
+.teams-rigth {
+    width: 50%;
+}
+.teams {
+    display: flex;
+    gap: 40px;
+    border-bottom: 4px solid #49A37B;
+    padding-bottom: 50px;
+}
+.teams-rigth img {
+    width: 400px;
+}
+.teams-left h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.teams-subtitle {
+    margin-bottom: 15px;
+}
+.teams-text {
+    margin-bottom: 40px;
+}
+.subtitle {
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: underline 4px solid #49A37B;
+    text-underline-offset: 8px;
+    margin-bottom: 70px;
+}
+.function {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border-bottom: 4px solid #49A37B;
+    padding-bottom: 50px;
+}
+.function h3 {
+    font-size: 20px;
+}
+.function-line {
+    display: flex;
+}
+.row {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.function-line div img {
+    margin-right: 10px;
+}
+.function-data {
+    display: block;
+}
+.function-data h3 {
+    margin-bottom: 10px;
+}
+.why-track {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border-bottom: 4px solid #49A37B;
+    padding-bottom: 50px;
+}
+.why-track-row {
+    display: flex;
+    gap: 20px;
+}
+.why-track-item {
+    padding: 10px;
+    background-color: white;
+    color: #373867;
+    border-radius: 15px;
+}
+.why-track-item h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.why-track-item p {
+    font-size: 12px;
+}
+.why-track-title {
+    display: flex;
+}
+.why-track-title img {
+    width: 40px;
+    height: 40px;
 }
