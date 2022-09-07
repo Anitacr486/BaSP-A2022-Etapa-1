@@ -263,6 +263,27 @@ textarea {
     border-left: 1px solid white;
     padding: 15px;
 }
+.about-us-lorem {
+    font-size: 12px;
+}
+.about-us-lorem .img1{
+    float: left;
+    width: 280px;
+    height: 250px;
+}
+.about-us-lorem .img2{
+    margin: 20px;
+    float: right;
+    width: 280px;
+    height: 250px;
+}
+.about-us-lorem p {
+    padding-left: 300px;
+}
+.about-us-lorem .p3 {
+    padding-left: 0px;
+    padding-right: 300px;
+}
 .info-links {
     justify-content: center;
     display: flex;
