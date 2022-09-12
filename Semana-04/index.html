@@ -10,11 +10,14 @@
     />
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
     <title>Trackgenix</title>
   </head>
   <body>
-    <div class="sidebar">
-      <aside>
+      <aside class="sidebar">
         <div class="search">
           <input type="search" placeholder="Search" />
         </div>
@@ -53,24 +56,26 @@
           </section>
         </div>
       </aside>
-    </div>
     <div class="container">
       <div class="btn-menu">
-        <img src="img/menu-button.png" alt="Menu">
+        <img src="img/menu-button.png" alt="Menu" />
       </div>
       <header>
         <h1>Trackgenix</h1>
         <h2>by Gigatech Software Solutions SA</h2>
-        <div class="social-media">
+        <!-- <div class="social-media">
           <img src="img/facebook-icon.png" alt="Facebook icon." />
           <img src="img/linkedIn-icon.png" alt="Linkedin icon." />
           <img src="img/twitter-icon.png" alt="Twitter icon." />
           <img src="img/instagram-icon.png" alt="Instagram icon." />
           <img src="img/github-icon.png" alt="Github icon." />
-        </div>
+        </div> -->
       </header>
       <main>
         <section class="teams">
+          <div class="teams-rigth">
+            <img src="img/main-image.png" alt="An employee with a computer" />
+          </div>
           <div class="teams-left">
             <h2>Time tracker for teams</h2>
             <p class="teams-subtitle">Lorem ipsum dolor sit amet</p>
@@ -88,12 +93,6 @@
               arcu eros, eget tempus orci facilisis id.
             </p>
             <a href="" class="learn-more-btn">LEARN MORE</a>
-          </div>
-          <div class="teams-rigth">
-            <img
-              src="img/main-image.png"
-              alt="An employee with a computer"
-            />
           </div>
         </section>
         <section class="function">
@@ -226,6 +225,7 @@
             <div class="text-area-row">
               <label for="message">Message</label>
               <textarea
+                id="message"
                 class="text-area"
                 name="message"
                 placeholder="Text"
@@ -257,55 +257,66 @@
           </p>
           <h3>Lorem</h3>
           <div class="about-us-lorem">
-            <img class="img1" src="img/second-image.png" alt="A man sitting at a desk." />
+            <img
+              class="img1"
+              src="img/second-image.png"
+              alt="A man sitting at a desk."
+            />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
-              mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
+              massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
               fringilla, mattis ligula consectetur, ultrices mauris. Maecenas
-              vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor
-              ornare leo, non suscipit .Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.
-              Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-              ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet
-              augue. Vestibulum auctor ornare leo, non suscipit .Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
-              hendrerit urna. Pellentesque sit amet sapien fringilla, mattis
-              ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.
-              Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
-              suscipit .Lorem ipsum dolor sit amet, consectetur adipiscing e
+              vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum
+              auctor ornare leo, non suscipit .Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit
+              urna. Pellentesque sit amet sapien fringilla, mattis ligula
+              consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam
+              quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit
+              .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
+              massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
+              fringilla, mattis ligula consectetur, ultrices mauris. Maecenas
+              vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum
+              auctor ornare leo, non suscipit .Lorem ipsum dolor sit amet,
+              consectetur adipiscing e
             </p>
-          <img class="img2" src="img/second-image.png" alt="A man sitting at a desk." />
+            <img
+              class="img2"
+              src="img/second-image.png"
+              alt="A man sitting at a desk."
+            />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
-              mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
+              massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
               fringilla, mattis ligula consectetur, ultrices mauris. Maecenas
-              vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor
-              ornare leo, non suscipit .Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.
-              Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-              ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet
-              augue. Vestibulum auctor ornare leo, non suscipit .Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
-              hendrerit urna. Pellentesque sit amet sapien fringilla, mattis
-              ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.
-              Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
-              suscipit .Lorem ipsum dolor sit amet, consectetur adipiscing e
+              vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum
+              auctor ornare leo, non suscipit .Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit
+              urna. Pellentesque sit amet sapien fringilla, mattis ligula
+              consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam
+              quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit
+              .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
+              massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
+              fringilla, mattis ligula consectetur, ultrices mauris. Maecenas
+              vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum
+              auctor ornare leo, non suscipit .Lorem ipsum dolor sit amet,
+              consectetur adipiscing e
             </p>
             <p class="p3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
-              mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
+              massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
               fringilla, mattis ligula consectetur, ultrices mauris. Maecenas
-              vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor
-              ornare leo, non suscipit .Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.
-              Pellentesque sit amet sapien fringilla, mattis ligula consectetur,
-              ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet
-              augue. Vestibulum auctor ornare leo, non suscipit .Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in
-              hendrerit urna. Pellentesque sit amet sapien fringilla, mattis
-              ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.
-              Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non
-              suscipit .Lorem ipsum dolor sit amet, consectetur adipiscing e
+              vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum
+              auctor ornare leo, non suscipit .Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit
+              urna. Pellentesque sit amet sapien fringilla, mattis ligula
+              consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam
+              quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit
+              .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
+              massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
+              fringilla, mattis ligula consectetur, ultrices mauris. Maecenas
+              vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum
+              auctor ornare leo, non suscipit .Lorem ipsum dolor sit amet,
+              consectetur adipiscing e
             </p>
           </div>
         </section>
@@ -314,35 +325,34 @@
             <section>
               <h3>Product</h3>
               <ol>
-                <li>Functionalities</li>
-                <li>Integrations</li>
-                <li>Download</li>
-                <li>Extra</li>
+                <li><a href="">Functionalities</a></li>
+                <li><a href="">Integrations</a></li>
+                <li><a href="">Download</a></li>
+                <li><a href="">Extra</a></li>
               </ol>
             </section>
             <section>
               <h3>Company</h3>
               <ol>
-                <li>About us</li>
-                <li>Customers</li>
-                <li>Resources</li>
-                <li>Blog</li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Customers</a></li>
+                <li><a href="">Resources</a></li>
+                <li><a href="">Blog</a></li>
               </ol>
             </section>
             <section>
               <h3>Support</h3>
               <ol>
-                <li>Help</li>
-                <li>Tutorials</li>
-                <li>Api</li>
-                <li>Contact</li>
+                <li><a href="">Help</a></li>
+                <li><a href="">Tutorials</a></li>
+                <li><a href="">Api</a></li>
+                <li><a href="">Contact</a></li>
               </ol>
             </section>
           </div>
         </section>
       </main>
-      <footer>
-        <div class="footer-data">
+      <footer class="footer-data">
           <div class="images">
             <img src="img/facebook-icon.png" alt="Facebook icon." />
             <img src="img/linkedIn-icon.png" alt="Linkedin icon." />
@@ -351,8 +361,7 @@
             <img src="img/github-icon.png" alt="Github icon." />
           </div>
           <p>Montevideo, Uruguay</p>
-          <p>Copyright © 2022  GigaTech Software Solutions SA</p>
-        </div>
+          <p>Copyright © 2022 GigaTech Software Solutions SA</p>
       </footer>
     </div>
   </body>
