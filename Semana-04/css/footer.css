@@ -1,0 +1,23 @@
+footer{
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+}
+footer img {
+    width: 30px;
+}
+footer .images {
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    padding-bottom: 20px;
+}
+.footer-data {
+    width: 60%;
+    text-align: center;
+    margin: 10px;
+}
+.footer-data p {
+    padding-bottom: 20px;
+}

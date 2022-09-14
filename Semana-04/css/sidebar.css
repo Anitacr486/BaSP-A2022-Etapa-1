@@ -1,63 +1,65 @@
 
-@media (max-width: 900px) {
-    .sidebar {
-        display: none;
-    }
-}
-
 .sidebar {
-    background-color: #262862;
-    width: 20%;
+    display: none;
 }
 
-.search {
-    background-color: #373867;
-    height: 120px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    border-right: 1px solid black;
-}
-
-.search input {
-    height: 40px;
-    width: 80%;
-    border: 1px solid #49A37B;
-    background-color: #262862;
-}
-
-.sidebar li {
-    list-style: none;
-    margin-bottom: 30px;
-    border-bottom: 1px solid #49A37B;
-}
-
-.sidebar li a {
-    text-decoration: none;
-    color: white;
-}
-
-.sidebar-list {
-    padding: 10px 20px 50px 30px;
-}
-
-.get-in-touch {
-    font-size: 20px;
-    border-bottom: 4px solid #49A37B;
-    margin-bottom: 30px;
-}
-
-.get-in-touch-text {
-    font-size: 12px;
-    margin-bottom: 30px;
-}
-
-.adress li {
-    padding-bottom: 20px;
-    align-items: center;
-    display: flex;
-}
-
-.adress li img {
-    margin-right: 10px;
+@media (min-width: 1024px) {
+    .sidebar {
+        display: block;
+        background-color: #262862;
+        width: 20%;
+    }
+    
+    .search {
+        background-color: #373867;
+        height: 120px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-right: 1px solid black;
+    }
+    
+    .search input {
+        height: 40px;
+        width: 80%;
+        border: 1px solid #49A37B;
+        background-color: #262862;
+    }
+    
+    .sidebar li {
+        list-style: none;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #49A37B;
+    }
+    
+    .sidebar li a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .sidebar-list {
+        padding: 10px 20px 50px 30px;
+    }
+    
+    .get-in-touch {
+        font-size: 20px;
+        border-bottom: 4px solid #49A37B;
+        margin-bottom: 30px;
+    }
+    
+    .get-in-touch-text {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    
+    .adress li {
+        padding-bottom: 20px;
+        align-items: center;
+        display: flex;
+    }
+    
+    .adress li img {
+        margin-right: 10px;
+    }
+    
 }
